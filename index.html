@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Happy 2 Years</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <div id="scene">
+    <div class="sky">
+      <div class="moon"></div>
+      <!-- Background lanterns -->
+      <div class="lantern bg" style="top: 70%; left: 10%; animation-delay: 0s;"></div>
+      <div class="lantern bg" style="top: 50%; left: 30%; animation-delay: 2s;"></div>
+      <div class="lantern bg" style="top: 60%; left: 70%; animation-delay: 3s;"></div>
+      <div class="lantern bg" style="top: 80%; left: 50%; animation-delay: 1s;"></div>
+    </div>
+
+    <div class="water">
+      <div class="lantern-reflection" style="top: 10%; left: 10%; animation-delay: 0s;"></div>
+      <div class="lantern-reflection" style="top: 30%; left: 30%; animation-delay: 2s;"></div>
+      <div class="lantern-reflection" style="top: 70%; left: 70%; animation-delay: 3s;"></div>
+      <div class="lantern-reflection" style="top:50%; left: 50%; animation-delay: 1s;"></div>
+    </div>
+
+    <audio id="bgMusic">
+      <source src="audio/See The Light (Piano Cover)(MP3_160K).mp3" type="audio/mpeg">
+    </audio>
+    
+  
+
+    <!-- Boat and characters -->
+    <div class="boat">
+      <img src="img/OAT.png" class="boat-img" alt="Boat" />
+
+      <!-- You -->
+      <img src="img/me.gif" class="character you" alt="You" />
+
+      <!-- Her (animated gif) -->
+      <img src="img/loml2.gif" class="character her" alt="Her" />
+
+      <!-- Lantern in her hands -->
+      <div id="mainLantern" class="lantern main-glow"></div>
+    </div>
+   <!-- Main floating lantern after released -->
+   <div id="mainLantern2" class="lantern main" style="left: 50%; bottom: 25%;"></div>
+
+   <!-- Final message -->
+   <div class="message" id="message">É você a luz.</div>
+ </div>
+
+ <!-- Load fonts -->
+ <link href="https://db.onlinewebfonts.com/c/7ca613e1e257753c40b580eb358e7041?family=AubergeScriptBasicFive" rel="stylesheet">
+
+
+  <script src="js/script.js"></script>
+</body>
+</html>
+
